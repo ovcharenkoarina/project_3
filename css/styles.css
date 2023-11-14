@@ -207,3 +207,43 @@ h2 {
 .music-section {
   margin-bottom: 20px;
 }
+
+/* Media query for small devices*/
+@media screen and (max-width: 767px) {
+
+  .music-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .music-section {
+    padding: 20px;
+  }
+
+  #video-1,
+  #video-2 {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Media query for medium-sized devices*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .music-header {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .music-section {
+    padding: 30px;
+  }
+
+  #video-1,
+  #video-2 {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+}
