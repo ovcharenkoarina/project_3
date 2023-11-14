@@ -1,2 +1,1 @@
-# project_3
-repository for lab project_3
+# project_2
