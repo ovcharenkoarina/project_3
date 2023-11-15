@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Simple map</title>
+    <title>Map IP</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/normalize.css">
@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:wght@400;600&family=Roboto+Condensed:wght@400;700&family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
     <script src="/js/script.js"></script>
+    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"  async defer></script>
   </head>
 
   <body>
@@ -25,8 +26,11 @@
         </div>
       </nav>
     </header>
-    <div id="map"></div>
-    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw909f7AEvTAIH8rI&callback=initMap" async defer></script>
+    <h1 id="mapheader">Map!</h1>
+    <div id="wrapper">
+      <div id="canvas"></div>
+    </div>
+    
 
   </body>
 </html>
