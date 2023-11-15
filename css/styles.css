@@ -214,6 +214,7 @@ h2 {
   .music-header {
     font-size: 24px;
     margin-bottom: 10px;
+
   }
 
   .music-section {
@@ -234,6 +235,7 @@ h2 {
   .music-header {
     font-size: 28px;
     margin-bottom: 15px;
+    color: black;
   }
 
   .music-section {
