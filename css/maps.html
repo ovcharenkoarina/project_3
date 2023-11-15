@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:wght@400;600&family=Roboto+Condensed:wght@400;700&family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav  id="main-navbar">
+        <div id="navbar-container">
+          <ul>
+            <li><a href="index.html">Resume</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li id="onpage"><a href="music.html">Music</a></li>
+            <li id="onpage"><a href="#">Maps</a>Maps</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-Bpx660SBK3-Vw909f7AEvTAIH8rI&callback=initMap" async defer></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
