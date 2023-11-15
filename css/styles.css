@@ -248,7 +248,7 @@ h2 {
     width: 100%;
     height: 300px;
     margin-bottom: 30px;
-    border: 2px solid var(--hot-pink);
+    border: 4px solid var(--hot-pink);
   }
 
   .music-paragraph{
@@ -257,6 +257,10 @@ h2 {
 
   iframe {
     border: 3px solid black;
+  }
+
+  #music-body {
+    background-color: #dac2ee;
   }
 
 }
