@@ -208,6 +208,14 @@ h2 {
   margin-bottom: 20px;
 }
 
+/*Maps page style*/
+#map {
+  border: 6px solid var(--deep-pink);
+  height: 400px;
+  width: 100%;
+}
+
+
 /* Media query for small devices*/
 @media screen and (max-width: 767px) {
 
