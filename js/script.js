@@ -7,31 +7,29 @@ function initMap(){
     zoom: 8,
     mapTypeId: google.maps.MapTypeId.SATELLITE,
     
-	mapTypeControlOptions: {
+    mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
-  }
-};
+    }
+  };
 
-var myMap = new google.maps.Map(el, mapOptions);
+  var myMap = new google.maps.Map(el, mapOptions);
 
-var marker = new google.maps.Marker({
-  position: myLocation,
-  map: myMap,
-  animation: google.maps.Animation.DROP,
-  icon: 'images/icon.jpg'
-});
+  var marker = new google.maps.Marker({
+    position: myLocation,
+    map: myMap,
+    animation: google.maps.Animation.DROP,
+    icon: 'images/icon.jpg'
+  });
 
-var contentString = '<h1>Leningradskaya Street</h1><p>Leningradskaya Street is one of the best places to spend time in Samara, Russia</p>';
+  var contentString = '<h1>Leningradskaya Street</h1><p>Leningradskaya Street is one of the best places to spend time in Samara, Russia</p>';
 
-var infowindow = new google.maps.InfoWindow ({
-  content: contentString
-});
+  var infowindow = new google.maps.InfoWindow ({
+    content: contentString
+  });
 
-google.maps.event.addListener(marker, 'mouseover', function() {
-  infowindow.open(myMap, marker);
-});
-
+  google.maps.event.addListener(marker, 'mouseover', function() {
+    infowindow.open(myMap, marker);
+  });
 }
 
-
-google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', initMap);
