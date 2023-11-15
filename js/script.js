@@ -27,7 +27,7 @@ function initMap(){
     content: contentString
   });
 
-  google.maps.event.addListener(marker, 'domready', function() {
+  google.maps.event.addListener(marker, 'mouseover', function() {
     infowindow.open(myMap, marker);
   });
 }
